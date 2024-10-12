@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <title>Furniture</title>
+    <style>
+    
+        .card:hover{
+            transform:scale(1.15);
+        
+        }
+        .image{
+        
+        height:100vh;
+        width: 99vw;
+    }
+    .nav-item:hover{
+        border-bottom:2px solid;
+    }
+    
+    </style>
+</head>
+
+<body style="overflow-x: hidden;">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   
+ 
+            <div class="row p-3 text-center">
+        <a href="#" class="navbar-brand fw-bold text-center "style="font-size:25px;" >FURNITURE</a>
+        </div>
+        
+        
+
+        <nav class="navbar navbar-expand-md bg-secondary">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"> 
+         </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation" >
+            <span class="navbar-toggler-icon"></span> 
+        </button>
+            <div class="collapse navbar-collapse" id="nav">
+               <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" aria-current="page" >Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#shop" class="nav-link" >Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" >About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#collections" class="nav-link" >Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#faq" class="nav-link">FAQ</a>
+                </li>
+                <li>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal">Login</button>
+                <div class="modal fade modal-md" id="modal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header"> 
+                            <h2 class="text-center">Login</h2>
+                            <button class="btn btn-close" aria-label="close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                           <img class="img-responsive center-block d-block mx-auto" src="download.png" >
+                            <form>
+                                <label for="email" class="form-label fw-bold ">Username:</label>
+                                <input type="email" id="email" class="form-control" placeholder="Enter Username" required>
+                                <label for="password" class="form-label pt-3 fw-bold">Password:</label>
+                                <input type="password" id="password" class="form-control" placeholder="Enter Password" required>
+                                <input type="checkbox" id="details" class="form-check-input mt-3">
+                                <label for="details" class="form-check-details">Remember me</label>
+                                <button class="btn btn-primary btn-md px-4 m-2">Login</button>
+                            </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-warning btn-sm">cancel</button>
+                                <button class="btn btn-link">Signup</button>
+                                <button class="btn btn-link">Forgot Password?</button>
+                            </div>
+                        </div>
+                        </div> 
+                        </div>
+                    </li>
+                </ul>
+            </div>
+             <form>
+            <label for="search"  class="form-label" ></label>
+            <input type="search" id="search" class="form-control-sm" placeholder="search">
+            <button class="btn btn-light btn-sm ">search</button>
+            </form>
+        </div>
+    </nav>
+                
+    
+        
+        
+
+         <section id="home">
+            <div class="image" style="background-image:url('https://images.pexels.com/photos/280471/pexels-photo-280471.jpeg?auto=compress&cs=tinysrgb&w=900');background-size: cover;">
+            <div class="pt-5 text-center">
+            <h1>Transform Your Home  </h1>
+            <h1>into a Haven.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente provident odio aut neque soluta asperiores error temporibus optio mollitia reiciendis</p>
+    <button class="btn btn-light text-dark text-center btn-sm border-2 border-dark">Shop Now</button>
+    </div>
+    </div>
+     </section>
+     
+
+
+    <section id="collections">
+    <h1 class="text-center m-5">EXTENSIVE COLLECTIONS</h1>
+    <div class="container-fluid">
+            <div class="row g-5 ms-5">
+                <div class="col">
+                    <div class="card border-2" style="background-image:url('https://images.pexels.com/photos/2082090/pexels-photo-2082090.jpeg?auto=compress&cs=tinysrgb&w=600');height:30vh; width:25vw; background-size: cover;" >
+                    <div class="card-body">
+                    <h2 class="card-title">Chairs</h2>
+                    <p>Lorem ipsum dolor.</p>
+                    <button class="btn btn-light border-2 border-dark text-center">View More</button>
+                </div>
+                </div>
+                </div>
+                <div class="col">
+                    <div class="card border-3" style="background-image:url('https://images.pexels.com/photos/3757055/pexels-photo-3757055.jpeg?auto=compress&cs=tinysrgb&w=600');height:30vh; width:25vw; background-size: cover;">
+                    <div class="card-body">
+                        <h2 class="card-title">Sofa</h2>
+                    <p>Lorem ipsum dolor.</p>
+                    <button class="btn btn-light border-2 border-dark text-center ">View More</button>
+                </div></div></div>
+                <div class="col">
+                    <div class="card border-3" style="background-image:url(' https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=600');height:30vh; width:25vw;background-size: cover;">
+                   <div class="card-body">
+                        <h2 class="card-title">Work Desk</h2>
+                    <p>Lorem ipsum dolor.</p>
+                    <button class="btn btn-light  border-dark border-2 text-center">View More</button>
+                </div></div></div>
+            </div>
+        </div>
+        </section>
+        
+    
+        <section id="shop">
+        <h1 class="text-center m-5">OUR PRODUCTS</h1>
+        <div class="container-fluid">
+            <div class="row g-4 ms-5">
+                <div class="col">
+                    <div class="card" style="width:250px;">
+                        <img class="card-img-top" src="https://images.pexels.com/photos/1321290/pexels-photo-1321290.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" style="height:250px;">
+                        <div class="card-body text-center">
+                        <h2>New Chair</h2>
+                        <p>Rs.750</p>
+                        <button class="btn btn-primary border-3 text-center p-3">Buy Now</button>
+                    </div>    
+                </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width:250px;">
+                        <img src="https://images.pexels.com/photos/2180883/pexels-photo-2180883.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" style="height:250px;">
+                        <div class="card-body text-center">
+                        <h2>Modern Chair</h2>
+                        <p>Rs.950</p>
+                        <button class="btn btn-primary border-3 text-center p-3">Buy Now</button>
+                    </div>    
+                </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width:250px;">
+                        <img src="https://images.pexels.com/photos/3705539/pexels-photo-3705539.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" style="height:250px;">
+                        <div class="card-body text-center">
+                        <h2>New Sofa</h2>
+                        <p>Rs.1000</p>
+                        <button class="btn btn-primary border-3 text-center p-3">Buy Now</button>
+                    </div>    
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width:250px;">
+                        <img src="https://images.pexels.com/photos/8082560/pexels-photo-8082560.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" style="height:250px;">
+                        <div class="card-body text-center">
+                        <h2 class="card-title">Best Sofa</h2>
+                        <p class="card-text">Rs.700</p>
+                        <button class="btn btn-primary border-3 text-center p-3">Buy Now</button>
+                    </div>    
+                </div>
+                </div>
+                 </div>
+            </div>
+           </section>
+
+
+           <section id="about">
+        <h1 class="text-center m-5">ABOUT</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=600" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    </div>
+                  
+    <div class="col">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea error quidem, nostrum consectetur ducimus laudantium ipsa officia rerum earum adipisci corrupti molestias expedita repudiandae ab voluptatum? At aliquam, dolores deleniti minima tempora possimus a accusamus quae voluptatum ipsum voluptatem provident qui pariatur est tempore reprehenderit nihil illo laboriosam! Ad adipisci, nostrum facilis, velit explicabo numquam officiis obcaecati ipsam, reprehenderit quis neque. Velit est beatae facere deserunt quam quis esse mollitia, doloremque quibusdam obcaecati doloribus asperiores, ullam laborum deleniti exercitationem, necessitatibus temporibus quaerat sunt consequatur molestias! Sint, autem omnis. Illo accusamus exercitationem accusantium voluptatum, deserunt laboriosam modi tenetur mollitia nesciunt sapiente corporis enim perferendis vitae. Sint nam delectus laudantium id beatae omnis adipisci laborum enim culpa voluptas. Animi minima vel amet cumque ab facilis fuga temporibus dicta, obcaecati magni! Est necessitatibus perspiciatis sed iusto inventore fuga saepe distinctio tempora voluptate non, sapiente a at eligendi unde voluptatibus ratione amet nihil numquam. In molestias tempore.</p>
+        <button class="btn btn-light border-dark border-3 text-center">Read More...</button>
+    </div>
+</div>
+    </div>
+    </section>
+
+   
+    <section id="faq">
+    <h1 class="text-center m-5">FAQ</h1>
+   <div class="container-fluid">
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="btn accordion-button"  data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                How can I track my order?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                To track your order, you will receive an email with our delivery service tracking details of your order.
+            </div>
+          </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="btn accordion-button"  data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                How long does it take for my products to be made and delivered?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Production and delivery time varies depending on the item(s) ordered, your customisation options and your location. We always aim to deliver within 4 weeks from the date of your order. 
+              </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="btn accordion-button"  data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                    My items haven’t arrived yet. What can I do?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Please allow up to 4 weeks from the day you received the order confirmation. For any additional concern, please do not hesitate to email us at furniture@design.com
+                  </div>
+                </div>
+                </div>
+        </div>
+        </div>
+        </section>
+         
+
+         <section id="contact">
+            <div class="container-sm">
+            <h1 class="m-5 text-center">Contact Me</h1>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+            <form>
+                <label for="email" class="form-label fw-bold " >Username:</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter Username" required>
+                <label for="password" class="form-label pt-3 fw-bold">Password:</label>
+                <input type="password" id="password" class="form-control" placeholder="Enter Password" required>
+                <label for="ph.no" class="form-label pt-3 fw-bold">Contact No:</label>
+                <input type="number" id="ph.no" class="form-control">
+                <label for="text" class="form-label pt-3 fw-bold">Message:</label>
+                <input type="text" id="text" class="form-control p-3" placeholder="type your message here....">
+                <button class="btn btn-primary btn-md m-3">Submit</button>
+                </form>
+                </div>
+                </div>
+                </div>
+         </section>
+          
+
+        <div class="text-center bg-dark text-light m-5 p-4">
+        <h2>Furniture</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, voluptate.</p>
+         <div class="row">
+           <div class="col">
+                <i class="fa-brands fa-twitter"></i>
+           
+                <i class="fa-brands fa-facebook"></i>
+                
+                <i class="fa-brands fa-skype"></i>
+           
+                <i class="fa-brands fa-google"></i>
+           </div>
+         </div>
+    &copy;Copiright Furniture. All Rights Reserved
+    </div>
+</body>
+</html>
